@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EF0C1912BEEBDB300E4DD10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF0C1902BEEBDB300E4DD10 /* AppDelegate.swift */; };
+		1EF0C1932BEEBDB300E4DD10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF0C1922BEEBDB300E4DD10 /* SceneDelegate.swift */; };
+		1EF0C1952BEEBDB300E4DD10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF0C1942BEEBDB300E4DD10 /* ViewController.swift */; };
+		1EF0C1982BEEBDB300E4DD10 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1EF0C1972BEEBDB300E4DD10 /* Base */; };
+		1EF0C19A2BEEBDB400E4DD10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF0C1992BEEBDB400E4DD10 /* Assets.xcassets */; };
+		1EF0C19D2BEEBDB400E4DD10 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1EF0C19C2BEEBDB400E4DD10 /* Base */; };
+		1EF0C1A82BEEBDB400E4DD10 /* TableView_Kent_SimgeleriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF0C1A72BEEBDB400E4DD10 /* TableView_Kent_SimgeleriTests.swift */; };
+		1EF0C1B22BEEBDB400E4DD10 /* TableView_Kent_SimgeleriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF0C1B12BEEBDB400E4DD10 /* TableView_Kent_SimgeleriUITests.swift */; };
+		1EF0C1B42BEEBDB400E4DD10 /* TableView_Kent_SimgeleriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF0C1B32BEEBDB400E4DD10 /* TableView_Kent_SimgeleriUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EF0C1A42BEEBDB400E4DD10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF0C1852BEEBDB300E4DD10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EF0C18C2BEEBDB300E4DD10;
+			remoteInfo = "TableView-Kent-Simgeleri";
+		};
+		1EF0C1AE2BEEBDB400E4DD10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF0C1852BEEBDB300E4DD10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EF0C18C2BEEBDB300E4DD10;
+			remoteInfo = "TableView-Kent-Simgeleri";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EF0C18D2BEEBDB300E4DD10 /* TableView-Kent-Simgeleri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView-Kent-Simgeleri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF0C1902BEEBDB300E4DD10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EF0C1922BEEBDB300E4DD10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1EF0C1942BEEBDB300E4DD10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EF0C1972BEEBDB300E4DD10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EF0C1992BEEBDB400E4DD10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EF0C19C2BEEBDB400E4DD10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EF0C19E2BEEBDB400E4DD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF0C1A32BEEBDB400E4DD10 /* TableView-Kent-SimgeleriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView-Kent-SimgeleriTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF0C1A72BEEBDB400E4DD10 /* TableView_Kent_SimgeleriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_Kent_SimgeleriTests.swift; sourceTree = "<group>"; };
+		1EF0C1AD2BEEBDB400E4DD10 /* TableView-Kent-SimgeleriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView-Kent-SimgeleriUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF0C1B12BEEBDB400E4DD10 /* TableView_Kent_SimgeleriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_Kent_SimgeleriUITests.swift; sourceTree = "<group>"; };
+		1EF0C1B32BEEBDB400E4DD10 /* TableView_Kent_SimgeleriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_Kent_SimgeleriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EF0C18A2BEEBDB300E4DD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF0C1A02BEEBDB400E4DD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF0C1AA2BEEBDB400E4DD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EF0C1842BEEBDB300E4DD10 = {
+			isa = PBXGroup;
+			children = (
+				1EF0C18F2BEEBDB300E4DD10 /* TableView-Kent-Simgeleri */,
+				1EF0C1A62BEEBDB400E4DD10 /* TableView-Kent-SimgeleriTests */,
+				1EF0C1B02BEEBDB400E4DD10 /* TableView-Kent-SimgeleriUITests */,
+				1EF0C18E2BEEBDB300E4DD10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EF0C18E2BEEBDB300E4DD10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EF0C18D2BEEBDB300E4DD10 /* TableView-Kent-Simgeleri.app */,
+				1EF0C1A32BEEBDB400E4DD10 /* TableView-Kent-SimgeleriTests.xctest */,
+				1EF0C1AD2BEEBDB400E4DD10 /* TableView-Kent-SimgeleriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EF0C18F2BEEBDB300E4DD10 /* TableView-Kent-Simgeleri */ = {
+			isa = PBXGroup;
+			children = (
+				1EF0C1902BEEBDB300E4DD10 /* AppDelegate.swift */,
+				1EF0C1922BEEBDB300E4DD10 /* SceneDelegate.swift */,
+				1EF0C1942BEEBDB300E4DD10 /* ViewController.swift */,
+				1EF0C1962BEEBDB300E4DD10 /* Main.storyboard */,
+				1EF0C1992BEEBDB400E4DD10 /* Assets.xcassets */,
+				1EF0C19B2BEEBDB400E4DD10 /* LaunchScreen.storyboard */,
+				1EF0C19E2BEEBDB400E4DD10 /* Info.plist */,
+			);
+			path = "TableView-Kent-Simgeleri";
+			sourceTree = "<group>";
+		};
+		1EF0C1A62BEEBDB400E4DD10 /* TableView-Kent-SimgeleriTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EF0C1A72BEEBDB400E4DD10 /* TableView_Kent_SimgeleriTests.swift */,
+			);
+			path = "TableView-Kent-SimgeleriTests";
+			sourceTree = "<group>";
+		};
+		1EF0C1B02BEEBDB400E4DD10 /* TableView-Kent-SimgeleriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EF0C1B12BEEBDB400E4DD10 /* TableView_Kent_SimgeleriUITests.swift */,
+				1EF0C1B32BEEBDB400E4DD10 /* TableView_Kent_SimgeleriUITestsLaunchTests.swift */,
+			);
+			path = "TableView-Kent-SimgeleriUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EF0C18C2BEEBDB300E4DD10 /* TableView-Kent-Simgeleri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EF0C1B72BEEBDB400E4DD10 /* Build configuration list for PBXNativeTarget "TableView-Kent-Simgeleri" */;
+			buildPhases = (
+				1EF0C1892BEEBDB300E4DD10 /* Sources */,
+				1EF0C18A2BEEBDB300E4DD10 /* Frameworks */,
+				1EF0C18B2BEEBDB300E4DD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableView-Kent-Simgeleri";
+			productName = "TableView-Kent-Simgeleri";
+			productReference = 1EF0C18D2BEEBDB300E4DD10 /* TableView-Kent-Simgeleri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EF0C1A22BEEBDB400E4DD10 /* TableView-Kent-SimgeleriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EF0C1BA2BEEBDB400E4DD10 /* Build configuration list for PBXNativeTarget "TableView-Kent-SimgeleriTests" */;
+			buildPhases = (
+				1EF0C19F2BEEBDB400E4DD10 /* Sources */,
+				1EF0C1A02BEEBDB400E4DD10 /* Frameworks */,
+				1EF0C1A12BEEBDB400E4DD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EF0C1A52BEEBDB400E4DD10 /* PBXTargetDependency */,
+			);
+			name = "TableView-Kent-SimgeleriTests";
+			productName = "TableView-Kent-SimgeleriTests";
+			productReference = 1EF0C1A32BEEBDB400E4DD10 /* TableView-Kent-SimgeleriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EF0C1AC2BEEBDB400E4DD10 /* TableView-Kent-SimgeleriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EF0C1BD2BEEBDB400E4DD10 /* Build configuration list for PBXNativeTarget "TableView-Kent-SimgeleriUITests" */;
+			buildPhases = (
+				1EF0C1A92BEEBDB400E4DD10 /* Sources */,
+				1EF0C1AA2BEEBDB400E4DD10 /* Frameworks */,
+				1EF0C1AB2BEEBDB400E4DD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EF0C1AF2BEEBDB400E4DD10 /* PBXTargetDependency */,
+			);
+			name = "TableView-Kent-SimgeleriUITests";
+			productName = "TableView-Kent-SimgeleriUITests";
+			productReference = 1EF0C1AD2BEEBDB400E4DD10 /* TableView-Kent-SimgeleriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EF0C1852BEEBDB300E4DD10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1EF0C18C2BEEBDB300E4DD10 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					1EF0C1A22BEEBDB400E4DD10 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 1EF0C18C2BEEBDB300E4DD10;
+					};
+					1EF0C1AC2BEEBDB400E4DD10 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 1EF0C18C2BEEBDB300E4DD10;
+					};
+				};
+			};
+			buildConfigurationList = 1EF0C1882BEEBDB300E4DD10 /* Build configuration list for PBXProject "TableView-Kent-Simgeleri" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EF0C1842BEEBDB300E4DD10;
+			productRefGroup = 1EF0C18E2BEEBDB300E4DD10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EF0C18C2BEEBDB300E4DD10 /* TableView-Kent-Simgeleri */,
+				1EF0C1A22BEEBDB400E4DD10 /* TableView-Kent-SimgeleriTests */,
+				1EF0C1AC2BEEBDB400E4DD10 /* TableView-Kent-SimgeleriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EF0C18B2BEEBDB300E4DD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF0C19A2BEEBDB400E4DD10 /* Assets.xcassets in Resources */,
+				1EF0C19D2BEEBDB400E4DD10 /* Base in Resources */,
+				1EF0C1982BEEBDB300E4DD10 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF0C1A12BEEBDB400E4DD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF0C1AB2BEEBDB400E4DD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EF0C1892BEEBDB300E4DD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF0C1952BEEBDB300E4DD10 /* ViewController.swift in Sources */,
+				1EF0C1912BEEBDB300E4DD10 /* AppDelegate.swift in Sources */,
+				1EF0C1932BEEBDB300E4DD10 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF0C19F2BEEBDB400E4DD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF0C1A82BEEBDB400E4DD10 /* TableView_Kent_SimgeleriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF0C1A92BEEBDB400E4DD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF0C1B42BEEBDB400E4DD10 /* TableView_Kent_SimgeleriUITestsLaunchTests.swift in Sources */,
+				1EF0C1B22BEEBDB400E4DD10 /* TableView_Kent_SimgeleriUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EF0C1A52BEEBDB400E4DD10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EF0C18C2BEEBDB300E4DD10 /* TableView-Kent-Simgeleri */;
+			targetProxy = 1EF0C1A42BEEBDB400E4DD10 /* PBXContainerItemProxy */;
+		};
+		1EF0C1AF2BEEBDB400E4DD10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EF0C18C2BEEBDB300E4DD10 /* TableView-Kent-Simgeleri */;
+			targetProxy = 1EF0C1AE2BEEBDB400E4DD10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EF0C1962BEEBDB300E4DD10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EF0C1972BEEBDB300E4DD10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EF0C19B2BEEBDB400E4DD10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EF0C19C2BEEBDB400E4DD10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EF0C1B52BEEBDB400E4DD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EF0C1B62BEEBDB400E4DD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EF0C1B82BEEBDB400E4DD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TableView-Kent-Simgeleri/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabri.TableView-Kent-Simgeleri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EF0C1B92BEEBDB400E4DD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TableView-Kent-Simgeleri/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabri.TableView-Kent-Simgeleri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1EF0C1BB2BEEBDB400E4DD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabri.TableView-Kent-SimgeleriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView-Kent-Simgeleri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TableView-Kent-Simgeleri";
+			};
+			name = Debug;
+		};
+		1EF0C1BC2BEEBDB400E4DD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabri.TableView-Kent-SimgeleriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView-Kent-Simgeleri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TableView-Kent-Simgeleri";
+			};
+			name = Release;
+		};
+		1EF0C1BE2BEEBDB400E4DD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabri.TableView-Kent-SimgeleriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TableView-Kent-Simgeleri";
+			};
+			name = Debug;
+		};
+		1EF0C1BF2BEEBDB400E4DD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabri.TableView-Kent-SimgeleriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TableView-Kent-Simgeleri";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EF0C1882BEEBDB300E4DD10 /* Build configuration list for PBXProject "TableView-Kent-Simgeleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF0C1B52BEEBDB400E4DD10 /* Debug */,
+				1EF0C1B62BEEBDB400E4DD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EF0C1B72BEEBDB400E4DD10 /* Build configuration list for PBXNativeTarget "TableView-Kent-Simgeleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF0C1B82BEEBDB400E4DD10 /* Debug */,
+				1EF0C1B92BEEBDB400E4DD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EF0C1BA2BEEBDB400E4DD10 /* Build configuration list for PBXNativeTarget "TableView-Kent-SimgeleriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF0C1BB2BEEBDB400E4DD10 /* Debug */,
+				1EF0C1BC2BEEBDB400E4DD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EF0C1BD2BEEBDB400E4DD10 /* Build configuration list for PBXNativeTarget "TableView-Kent-SimgeleriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF0C1BE2BEEBDB400E4DD10 /* Debug */,
+				1EF0C1BF2BEEBDB400E4DD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EF0C1852BEEBDB300E4DD10 /* Project object */;
+}
