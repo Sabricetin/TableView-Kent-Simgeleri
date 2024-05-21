@@ -31,3 +31,8 @@ Geçiş işlemi sırasında seçilen yer işaretinin adı ve görüntüsü, hede
 Silme İşlevi:
 
 tableView(_:commit:forRowAt:): Kullanıcı bir satırı sildiğinde, ilgili yer işareti adı ve görüntüsü dizilerden kaldırılır ve tablo güncellenir.
+
+<h2>Ekran Görüntüsü</h2>
+
+![yeni (1)](https://github.com/Sabricetin/TableView-Kent-Simgeleri/assets/114506296/0d49b657-cfce-4f59-a0d6-55ee9988127a)
+
